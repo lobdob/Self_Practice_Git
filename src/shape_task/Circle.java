@@ -20,16 +20,16 @@ public class Circle extends Shape {
 
     @Override
     public double area() {
-        double area = radius * radius * 3.14;
+        return radius * radius * 3.14;
 
-        System.out.println("Area of circle is " + area);
+
     }
 
     @Override
     public double perimeter() {
 
-        double perimeter = 2 * (radius * 3.14);
-        System.out.println("Perimeter of the circle is " +);
+        return 2 * (radius * 3.14);
+
 
     }
 
