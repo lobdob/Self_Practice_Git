@@ -14,7 +14,7 @@ public abstract class Shape {
     public void setName(String name) {
         this.name = name;
     }
-    public abstract void area();
-    public abstract void perimeter();
+    public abstract double area();
+    public abstract double perimeter();
     public abstract void draw();
 }
