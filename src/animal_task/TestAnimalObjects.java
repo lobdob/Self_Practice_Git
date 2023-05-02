@@ -13,5 +13,7 @@ public class TestAnimalObjects {
         Fish fish=new Fish("Herman", "Salmon", 'M');
         System.out.println(fish);
         fish.eat();
+
+
     }
 }
